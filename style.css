@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.anchor:hover {
+  opacity: 100% !important;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px grey;
+  margin: 5px;
+  padding: 0.6rem 1rem;
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.btn-flex:hover {
+  box-shadow: none;
+}
+
+.color {
+  color: #0092d6;
+}
+
+.color-grey {
+  color: grey;
+}
+
+.container-header {
+  font-size: 0.8rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container-main {
+  display: flex;
+  padding-right: 17%;
+  padding-left: 17%;
+}
+
+.container-review {
+  vertical-align: top;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 auto;
+}
+
+.container-graph {
+  vertical-align: top;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto auto;
+  border-style: none solid none solid;
+  border-color: rgba(64, 64, 133, 0.05);
+  padding: 0 10px;
+}
+
+.container-btn {
+  vertical-align: top;
+  display: flex;
+}
+
+.lgText {
+  font-size: 2.3rem;
+}
+
+.star-rating {
+  display: flex;
+  font-size: 1.3rem;
+  align-self: center;
+  margin-left: 0.4rem;
+}
+
+.review-count {
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.side {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+  display: flex;
+  align-self: center;
+}
+
+.middle {
+  margin-top: 10px;
+  float: left;
+  width: 50%;
+}
+
+.right {
+  text-align: right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+.bar-5 {
+  width: 80%;
+  height: 18px;
+  background-color: #0092d6;
+}
+.bar-4 {
+  width: 20%;
+  height: 18px;
+  background-color: #0092d6;
+}
+.bar-3 {
+  width: 8%;
+  height: 18px;
+  background-color: #0092d6;
+}
+.bar-2 {
+  width: 1%;
+  height: 18px;
+  background-color: #0092d6;
+}
+.bar-1 {
+  width: 2%;
+  height: 18px;
+  background-color: #0092d6;
+}
+
+@media (max-width: 1500px) {
+  .star-rating {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .side,
+  .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .container-graph {
+    width: 100%;
+  }
+  .container-btn {
+    position: absolute;
+    margin-top: 300px;
+  }
+}
