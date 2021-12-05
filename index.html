@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/8d32ec50d4.js"crossorigin="anonymous"s></script>
+    <script src="https://kit.fontawesome.com/8d32ec50d4.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container-header">
@@ -30,25 +30,22 @@
         <span class="review-count">
             Based on 3,219 Reviews
           </span>
-        </span>
       </div>
         <div class="container-graph">
         <a class="anchor" href="#">
       <div class="row">
         <div class="side">
-          
             <i class="fas fa-star color" aria-hidden="true"></i>
             <i class="fas fa-star color" aria-hidden="true"></i>
             <i class="fas fa-star color" aria-hidden="true"></i>
             <i class="fas fa-star color" aria-hidden="true"></i>
             <i class="fas fa-star color" aria-hidden="true"></i>
-          
         </div>
         <div class="middle">
           <div class="bar-container">
             <div class="bar-5"></div>
           </div>
-        </div> </a>
+        </div></a>
         <div class="side right">
           <div class="color-grey">(2928)</div>
         </div>
@@ -117,15 +114,28 @@
           <div class="color-grey">(7)</div>
         </div>
       </div>
+      
     </div>
     <div class="container-review container-btn">
-        <a href="#" class="btn btn-flex">💬 Ask a Question</a>
-      
-        <a href="#" class="btn btn-flex">📝 Write a Review</a>
+        <a href="#" id="btn1" class="btn btn-flex">💬 Ask a Question</a>  
+        <a href="#" id="btn2" class="btn btn-flex">📝 Write a Review</a>
+    </div>
 
     </div>
 
-   
+    <form id="form1">
+        <p>Your custom form here</p>
+        <input type="text" placeholder="Title">
+        <input type="textarea" placeholder="Your review here!">
+    </form>
+    <form id="form2">
+        <p>Your custom form here</p>
+        <input type="text" placeholder="Title">
+        <input type="textarea" placeholder="Your review here!">
+    </form>
+
+    <div class="down-below" id="myDiv"><p>To review/</p></div>
+
     <script src="index.js"></script>
   </body>
 </html>
